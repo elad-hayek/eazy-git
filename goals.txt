@@ -1,0 +1,31 @@
+
+--- capabilities---
+1. see available repos
+2. searching (may be limited) 
+3. download files / folders
+4. add new files / folders
+5. create ssh key and adding to account if first time (creating the ssh-agent and running it automatically)
+6. log in screen for the github account (optional. may use hard coded token)
+
+
+--- add new files / folders ---
+1. for every repo selected clone it to a selected location
+2. add a way to see the new files added
+3. add a way to selected the commit message
+4. push and display result
+5. add new things without cloning first (check the api if can be done for entire folders)
+
+
+--- ui ---
+1. log in screen (for github)
+2. main page - see current repo, tracked folder name, repo size, number of files, any unbacked files (like a dashboard)
+3. backup area - add individual files/ folder if not cloned, and if cloned then be able to display new files / folder and back them up
+
+
+--- tech stack --- 
+1. react router for pages
+2. react query for requests / state manager (look into that)
+3. reactFormHook for inputs
+4. zod for object auth
+
+
