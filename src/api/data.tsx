@@ -1,4 +1,5 @@
-import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
+
+export type DataQueryKeys = ['data']
 
 export const getData = async (): Promise<any> => {
   try {
@@ -12,7 +13,6 @@ export const getData = async (): Promise<any> => {
     throw error;
   }
 }
-
 
 export const postData = async (data: any): Promise<any> => {
   try {
